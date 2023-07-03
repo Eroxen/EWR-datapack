@@ -1,0 +1,67 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head"
+          ],
+          "state": {
+            "rotation": 0
+          }
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head"
+          ],
+          "state": {
+            "rotation": 4
+          }
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head"
+          ],
+          "state": {
+            "rotation": 8
+          }
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head"
+          ],
+          "state": {
+            "rotation": 12
+          }
+        }
+      }
+    }
+  ]
+}

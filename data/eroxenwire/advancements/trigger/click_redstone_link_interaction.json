@@ -1,0 +1,36 @@
+{
+  "parent": "eroxenwire:trigger/root",
+  "criteria": {
+    "attack": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+	  "nbt": "{
+            Tags:[\"eroxenwire.redstone_link.interaction\"]
+	  }"
+        }
+      }
+    },
+    "interact": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+	  "nbt": "{
+            Tags:[\"eroxenwire.redstone_link.interaction\"]
+	  }"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "interact",
+      "attack"
+    ]
+  ],
+  "rewards": {
+    "function": "eroxenwire:trigger/click_redstone_link_interaction"
+  }
+}

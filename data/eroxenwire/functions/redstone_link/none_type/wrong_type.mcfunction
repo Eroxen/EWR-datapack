@@ -1,0 +1,1 @@
+function eroxenwire:redstone_link/get_type

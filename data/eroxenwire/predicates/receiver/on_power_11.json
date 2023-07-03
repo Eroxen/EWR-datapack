@@ -1,0 +1,162 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "all_of",
+      "terms": [
+        {
+          "condition": "location_check",
+          "predicate": {
+            "block": {
+              "blocks": [
+                "minecraft:player_head"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "location_check",
+          "offsetY": -1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "minecraft:target"
+              ],
+              "state": {
+                "power": 11
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "all_of",
+      "terms": [
+        {
+          "condition": "location_check",
+          "predicate": {
+            "block": {
+              "blocks": [
+                "minecraft:player_wall_head"
+              ],
+              "state": {
+                "facing": "north"
+              }
+            }
+          }
+        },
+        {
+          "condition": "location_check",
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "minecraft:target"
+              ],
+              "state": {
+                "power": 11
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "all_of",
+      "terms": [
+        {
+          "condition": "location_check",
+          "predicate": {
+            "block": {
+              "blocks": [
+                "minecraft:player_wall_head"
+              ],
+              "state": {
+                "facing": "east"
+              }
+            }
+          }
+        },
+        {
+          "condition": "location_check",
+          "offsetX": -1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "minecraft:target"
+              ],
+              "state": {
+                "power": 11
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "all_of",
+      "terms": [
+        {
+          "condition": "location_check",
+          "predicate": {
+            "block": {
+              "blocks": [
+                "minecraft:player_wall_head"
+              ],
+              "state": {
+                "facing": "south"
+              }
+            }
+          }
+        },
+        {
+          "condition": "location_check",
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "minecraft:target"
+              ],
+              "state": {
+                "power": 11
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "all_of",
+      "terms": [
+        {
+          "condition": "location_check",
+          "predicate": {
+            "block": {
+              "blocks": [
+                "minecraft:player_wall_head"
+              ],
+              "state": {
+                "facing": "west"
+              }
+            }
+          }
+        },
+        {
+          "condition": "location_check",
+          "offsetX": 1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "minecraft:target"
+              ],
+              "state": {
+                "power": 11
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

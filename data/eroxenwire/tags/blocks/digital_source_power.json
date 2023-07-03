@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:redstone_wire",
+    "minecraft:sculk_sensor",
+    "minecraft:daylight_detector",
+    "minecraft:light_weighted_pressure_plate",
+    "minecraft:heavy_weighted_pressure_plate"
+  ]
+}

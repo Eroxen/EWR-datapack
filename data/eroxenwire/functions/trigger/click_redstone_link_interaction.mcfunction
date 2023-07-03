@@ -1,0 +1,2 @@
+execute at @s anchored eyes positioned ^ ^ ^3 as @e[type=interaction,tag=eroxenwire.redstone_link.interaction,predicate=eroxified:entity/interaction/attack_or_interaction] at @s align x align y align z positioned ~0.5 ~0.5 ~0.5 run function eroxenwire:redstone_link/interaction_clicked
+advancement revoke @s only eroxenwire:trigger/click_redstone_link_interaction

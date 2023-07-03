@@ -1,0 +1,1 @@
+execute if data storage eroxified:api place_player_head_block{id:"eroxenwire.redstone_link"} unless entity @e[type=marker,tag=eroxified.player_head_blocks.marker,tag=eroxenwire.redstone_link,distance=..0.1,limit=1] run function eroxenwire:redstone_link/spawn

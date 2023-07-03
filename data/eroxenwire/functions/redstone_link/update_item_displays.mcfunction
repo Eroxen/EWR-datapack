@@ -1,0 +1,2 @@
+data modify entity @e[type=item_display,tag=eroxenwire.redstone_link.item_display.a,distance=..0.1,limit=1] item.id set from entity @s data.frequency.a
+data modify entity @e[type=item_display,tag=eroxenwire.redstone_link.item_display.b,distance=..0.1,limit=1] item.id set from entity @s data.frequency.b
