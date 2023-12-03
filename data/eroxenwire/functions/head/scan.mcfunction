@@ -1,1 +1,1 @@
-execute if data storage eroxified2:api phead.place{namespaced_id:"eroxenwire:redstone_link"} run function eroxified2:phead/api/run_positioned {command:"function eroxenwire:redstone_link/api/placed with storage eroxified2:api phead.positioning"}
+execute if data storage eroxified2:api phead.place{namespaced_id:"eroxenwire:redstone_link"} run function eroxified2:phead/api/run_positioned {command:"function eroxenwire:redstone_link/api/placed"}
