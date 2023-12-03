@@ -9,6 +9,7 @@
     "minecraft:lectern",
     "minecraft:lightning_rod",
     "minecraft:observer",
-    "minecraft:note_block"
+    "minecraft:note_block",
+    "minecraft:detector_rail"
   ]
 }
