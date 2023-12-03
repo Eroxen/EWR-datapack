@@ -1,0 +1,2 @@
+$execute unless data storage eroxenwire:calc frequency_items[{id:"$(item)"}] run function eroxenwire:frequency/api/add_item
+$execute store result score #frequency.value eroxenwire.calc run data get storage eroxenwire:calc frequency_items[{id:"$(item)"}].value 1

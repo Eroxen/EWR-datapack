@@ -23,7 +23,7 @@
                 "minecraft:target"
               ],
               "state": {
-                "power": 4
+                "power": "4"
               }
             }
           }
@@ -55,7 +55,7 @@
                 "minecraft:target"
               ],
               "state": {
-                "power": 4
+                "power": "4"
               }
             }
           }
@@ -87,7 +87,7 @@
                 "minecraft:target"
               ],
               "state": {
-                "power": 4
+                "power": "4"
               }
             }
           }
@@ -119,7 +119,7 @@
                 "minecraft:target"
               ],
               "state": {
-                "power": 4
+                "power": "4"
               }
             }
           }
@@ -151,7 +151,7 @@
                 "minecraft:target"
               ],
               "state": {
-                "power": 4
+                "power": "4"
               }
             }
           }

@@ -1,0 +1,3 @@
+scoreboard players set #clicked_slot eroxenwire.calc 0
+execute if score math.ray.hit eroxified2.api matches 1 if score math.ray.hit.face eroxified2.api matches 4 if score math.ray.hit.u eroxified2.api matches 0..250 if score math.ray.hit.v eroxified2.api matches 125..375 run scoreboard players set #clicked_slot eroxenwire.calc 1
+execute if score math.ray.hit eroxified2.api matches 1 if score math.ray.hit.face eroxified2.api matches 4 if score math.ray.hit.u eroxified2.api matches 250..500 if score math.ray.hit.v eroxified2.api matches 125..375 run scoreboard players set #clicked_slot eroxenwire.calc 2

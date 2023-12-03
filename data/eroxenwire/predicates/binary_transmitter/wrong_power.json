@@ -1,0 +1,40 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "all_of",
+      "terms": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "eroxenwire.power": 0
+          }
+        },
+        {
+          "condition": "reference",
+          "name": "eroxenwire:binary_transmitter/powered"
+        }
+      ]
+    },
+    {
+      "condition": "all_of",
+      "terms": [
+        {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "eroxenwire.power": 15
+          }
+        },
+        {
+          "condition": "inverted",
+          "term": {
+            "condition": "reference",
+            "name": "eroxenwire:binary_transmitter/powered"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,2 +1,0 @@
-execute if data storage eroxified:api new_player_head_item{id:"eroxenwire.redstone_link"} run data modify entity @s Item.tag set from storage eroxenwire:calc item_registry.redstone_link.tag
-execute if data storage eroxified:api new_player_head_item{id:"eroxified.eroxenwire.redstone_link"} run data modify entity @s Item.tag set from storage eroxenwire:calc item_registry.redstone_link.tag

@@ -1,2 +1,0 @@
-execute if data storage eroxenwire:calc error_message if entity @a run function eroxenwire:broadcast_error_message
-execute if data storage eroxenwire:calc {eroxified_installed:1b} run function eroxenwire:tick

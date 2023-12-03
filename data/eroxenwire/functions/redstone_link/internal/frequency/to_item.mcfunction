@@ -1,0 +1,1 @@
+$data modify storage eroxified2:api phead.mined.modify_item set value {tag:{display:{Lore:['{"text":"Frequency:","color":"gray","italic":false}','{"text":"• $(a)","color":"gray","italic":false}','{"text":"• $(b)","color":"gray","italic":false}']},eroxenwire:{frequency:{a:"$(a)",b:"$(b)"}}}}

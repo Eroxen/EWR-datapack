@@ -34,7 +34,7 @@
               "predicate": {
                 "block": {
                   "state": {
-                    "powered": true
+                    "powered": "true"
                   },
                   "tag": "eroxenwire:binary_source_powered"
                 }
@@ -46,7 +46,7 @@
               "predicate": {
                 "block": {
                   "state": {
-                    "lit": true
+                    "lit": "true"
                   },
                   "tag": "eroxenwire:binary_source_lit"
                 }
@@ -92,7 +92,7 @@
               "predicate": {
                 "block": {
                   "state": {
-                    "powered": true
+                    "powered": "true"
                   },
                   "tag": "eroxenwire:binary_source_powered"
                 }
@@ -104,7 +104,7 @@
               "predicate": {
                 "block": {
                   "state": {
-                    "lit": true
+                    "lit": "true"
                   },
                   "tag": "eroxenwire:binary_source_lit"
                 }
@@ -150,7 +150,7 @@
               "predicate": {
                 "block": {
                   "state": {
-                    "powered": true
+                    "powered": "true"
                   },
                   "tag": "eroxenwire:binary_source_powered"
                 }
@@ -162,7 +162,7 @@
               "predicate": {
                 "block": {
                   "state": {
-                    "lit": true
+                    "lit": "true"
                   },
                   "tag": "eroxenwire:binary_source_lit"
                 }
@@ -208,7 +208,7 @@
               "predicate": {
                 "block": {
                   "state": {
-                    "powered": true
+                    "powered": "true"
                   },
                   "tag": "eroxenwire:binary_source_powered"
                 }
@@ -220,7 +220,7 @@
               "predicate": {
                 "block": {
                   "state": {
-                    "lit": true
+                    "lit": "true"
                   },
                   "tag": "eroxenwire:binary_source_lit"
                 }
@@ -266,7 +266,7 @@
               "predicate": {
                 "block": {
                   "state": {
-                    "powered": true
+                    "powered": "true"
                   },
                   "tag": "eroxenwire:binary_source_powered"
                 }
@@ -278,7 +278,7 @@
               "predicate": {
                 "block": {
                   "state": {
-                    "lit": true
+                    "lit": "true"
                   },
                   "tag": "eroxenwire:binary_source_lit"
                 }

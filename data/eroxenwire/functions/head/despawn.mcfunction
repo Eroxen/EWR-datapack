@@ -1,1 +1,0 @@
-execute if entity @s[tag=eroxenwire.redstone_link] run function eroxenwire:redstone_link/despawn

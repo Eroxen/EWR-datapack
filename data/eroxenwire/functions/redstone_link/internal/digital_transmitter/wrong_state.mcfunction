@@ -1,0 +1,3 @@
+execute if predicate eroxenwire:on_digital_source if predicate eroxenwire:digital_transmitter/wrong_power run function eroxenwire:redstone_link/internal/digital_transmitter/change_state
+execute unless predicate eroxenwire:on_digital_source run function eroxenwire:redstone_link/internal/digital_transmitter/exit
+execute unless predicate eroxenwire:on_digital_source run function eroxenwire:redstone_link/internal/init_type

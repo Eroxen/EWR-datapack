@@ -1,2 +1,0 @@
-function eroxenwire:redstone_link/receiver/reset_target
-function eroxenwire:redstone_link/get_type

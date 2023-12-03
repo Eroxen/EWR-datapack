@@ -1,0 +1,24 @@
+{
+  "condition": "entity_scores",
+  "entity": "this",
+  "scores": {
+    "eroxenwire.frequency": {
+      "max": {
+        "score": "eroxenwire.frequency",
+        "target": {
+          "name": "#compare",
+          "type": "fixed"
+        },
+        "type": "score"
+      },
+      "min": {
+        "score": "eroxenwire.frequency",
+        "target": {
+          "name": "#compare",
+          "type": "fixed"
+        },
+        "type": "score"
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+tag @s remove eroxenwire.redstone_link.type.waiting

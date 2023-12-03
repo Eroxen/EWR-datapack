@@ -23,7 +23,7 @@
               "predicate": {
                 "block": {
                   "state": {
-                    "power": 0
+                    "power": "0"
                   },
                   "tag": "eroxenwire:digital_source_power"
                 }
@@ -70,7 +70,7 @@
               "predicate": {
                 "block": {
                   "state": {
-                    "power": 0
+                    "power": "0"
                   },
                   "tag": "eroxenwire:digital_source_power"
                 }
@@ -117,7 +117,7 @@
               "predicate": {
                 "block": {
                   "state": {
-                    "power": 0
+                    "power": "0"
                   },
                   "tag": "eroxenwire:digital_source_power"
                 }
@@ -164,7 +164,7 @@
               "predicate": {
                 "block": {
                   "state": {
-                    "power": 0
+                    "power": "0"
                   },
                   "tag": "eroxenwire:digital_source_power"
                 }
@@ -211,7 +211,7 @@
               "predicate": {
                 "block": {
                   "state": {
-                    "power": 0
+                    "power": "0"
                   },
                   "tag": "eroxenwire:digital_source_power"
                 }

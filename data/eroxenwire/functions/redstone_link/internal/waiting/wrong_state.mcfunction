@@ -1,0 +1,2 @@
+function eroxenwire:redstone_link/internal/waiting/exit
+function eroxenwire:redstone_link/internal/init_type
