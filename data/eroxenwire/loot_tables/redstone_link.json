@@ -15,7 +15,7 @@
                 "function": "minecraft:set_name",
                 "name": {
                   "translate": "item.eroxenwire.redstone_link",
-                  "italic": "false",
+                  "italic": false,
                   "fallback": "Redstone Link"
                 }
               }
