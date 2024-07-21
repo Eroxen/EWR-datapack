@@ -1,0 +1,3 @@
+tellraw @s ["",{"text":"[Eroxen's Wireless Redstone] ","color":"light_purple"},{"text":"Are you sure you want to uninstall Eroxen's Wireless Redstone from your world? This will delete all placed Redstone Links.","color":"red"}]
+
+tellraw @s {"clickEvent":{"action":"run_command","value":"/function eroxenwire:util/uninstall/confirm"},"hoverEvent":{"action":"show_text","value":[{"text":"Click to confirm"}]},"text":"[Uninstall]","color":"aqua","underlined":true}

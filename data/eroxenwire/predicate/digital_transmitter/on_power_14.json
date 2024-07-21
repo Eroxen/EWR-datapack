@@ -1,0 +1,237 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "all_of",
+      "terms": [
+        {
+          "condition": "location_check",
+          "predicate": {
+            "block": {
+              "blocks": [
+                "minecraft:player_head"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "any_of",
+          "terms": [
+            {
+              "condition": "location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "#eroxenwire:digital_source_power",
+                  "state": {
+                    "power": "14"
+                  }
+                }
+              }
+            },
+            {
+              "condition": "location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:comparator"
+                  ],
+                  "nbt": "{OutputSignal:14}"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "all_of",
+      "terms": [
+        {
+          "condition": "location_check",
+          "predicate": {
+            "block": {
+              "blocks": [
+                "minecraft:player_wall_head"
+              ],
+              "state": {
+                "facing": "north"
+              }
+            }
+          }
+        },
+        {
+          "condition": "any_of",
+          "terms": [
+            {
+              "condition": "location_check",
+              "offsetZ": 1,
+              "predicate": {
+                "block": {
+                  "blocks": "#eroxenwire:digital_source_power",
+                  "state": {
+                    "power": "14"
+                  }
+                }
+              }
+            },
+            {
+              "condition": "location_check",
+              "offsetZ": 1,
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:comparator"
+                  ],
+                  "nbt": "{OutputSignal:14}"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "all_of",
+      "terms": [
+        {
+          "condition": "location_check",
+          "predicate": {
+            "block": {
+              "blocks": [
+                "minecraft:player_wall_head"
+              ],
+              "state": {
+                "facing": "east"
+              }
+            }
+          }
+        },
+        {
+          "condition": "any_of",
+          "terms": [
+            {
+              "condition": "location_check",
+              "offsetX": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "#eroxenwire:digital_source_power",
+                  "state": {
+                    "power": "14"
+                  }
+                }
+              }
+            },
+            {
+              "condition": "location_check",
+              "offsetX": -1,
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:comparator"
+                  ],
+                  "nbt": "{OutputSignal:14}"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "all_of",
+      "terms": [
+        {
+          "condition": "location_check",
+          "predicate": {
+            "block": {
+              "blocks": [
+                "minecraft:player_wall_head"
+              ],
+              "state": {
+                "facing": "south"
+              }
+            }
+          }
+        },
+        {
+          "condition": "any_of",
+          "terms": [
+            {
+              "condition": "location_check",
+              "offsetZ": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "#eroxenwire:digital_source_power",
+                  "state": {
+                    "power": "14"
+                  }
+                }
+              }
+            },
+            {
+              "condition": "location_check",
+              "offsetZ": -1,
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:comparator"
+                  ],
+                  "nbt": "{OutputSignal:14}"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "all_of",
+      "terms": [
+        {
+          "condition": "location_check",
+          "predicate": {
+            "block": {
+              "blocks": [
+                "minecraft:player_wall_head"
+              ],
+              "state": {
+                "facing": "west"
+              }
+            }
+          }
+        },
+        {
+          "condition": "any_of",
+          "terms": [
+            {
+              "condition": "location_check",
+              "offsetX": 1,
+              "predicate": {
+                "block": {
+                  "blocks": "#eroxenwire:digital_source_power",
+                  "state": {
+                    "power": "14"
+                  }
+                }
+              }
+            },
+            {
+              "condition": "location_check",
+              "offsetX": 1,
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:comparator"
+                  ],
+                  "nbt": "{OutputSignal:14}"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+$data modify storage eroxified2:api phead.mined.modify_item set value [{"function":"minecraft:set_lore","lore":[{"text":"• $(a)","color":"gray","italic":false},{"text":"• $(b)","color":"gray","italic":false}],"mode":"replace_all"},{"function":"minecraft:set_custom_data","tag":{eroxenwire:{frequency:{a:"$(a)",b:"$(b)"}}}}]
